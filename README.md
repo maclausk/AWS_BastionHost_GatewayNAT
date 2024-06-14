@@ -51,11 +51,11 @@ Neste projeto, iremos configurar um ambiente na AWS utilizando um Bastion Host p
     </tr>
        <tr>
       <td>09</td>
-      <td>Configuração do Gateway NAT</td>
+      <td>Criando o Gateway NAT</td>
     </tr>
        <tr>
       <td>10</td>
-      <td>Criando o Gateway NAT</td>
+      <td>Configuração do Gateway NAT</td>
     </tr>
     <tr>
       <td>11</td>
@@ -189,7 +189,7 @@ Digite o comando considerando o exemplo informado e, em seguida, digite <i>yes</
 
 <img src="./images//ComandosConexãoChavePEM.png" alt="Comandos Conexão Chave PEM" style="display: block; margin-left: auto; margin-right: auto;" width="75%">
 
-### 9. Configuração do Gateway NAT
+### 9. Criando Gateway NAT
 
 Na sessão estabelecida com a instância privada, verifique que o acesso à internet é inexistente ao executar o comando ping.
 
@@ -200,7 +200,7 @@ Para permitir que a instância privada acesse a internet de forma segura, habili
 
 <i>**IMPORTANTE**: O IP elástico é proveniente do grupo de endereços IPv4 públicos da Amazon ou de um grupo de endereços IPv4 personalizados transferidos para sua conta da AWS. Quando utilizados, são cobrados todos os endereços IP elásticos em sua conta, independentemente de estarem associados ou desassociados a uma instância.</i>
 
-### 10. Criando o Gateway NAT
+### 10. Configuração do Gateway NAT
 
 - **Nome:** Gtw-Nat-Avelino
 - **Sub-rede:** Avelino-A-Pública
