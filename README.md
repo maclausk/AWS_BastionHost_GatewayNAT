@@ -1,5 +1,4 @@
 <h1>
-    <a href="https://www.linkedin.com/in/maclausk/"></a>
     <span>Projeto: Configuração de Arquitetura AWS com Bastion Host e Gateway NAT</span>
 </h1>
 
